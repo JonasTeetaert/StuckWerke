@@ -8,13 +8,15 @@ class Navigation {
     this.btnClose.addEventListener('click', this.close.bind(this));
   }
 
-  open() {
+  open(e) {
+    e.preventDefault();
     if (!this.overlay.classList.contains('open')) {
       this.overlay.classList.add('open');
     }
   }
 
-  close() {
+  close(e) {
+    e.preventDefault();
     if (this.overlay.classList.contains('open')) {
       this.overlay.classList.remove('open');
     }

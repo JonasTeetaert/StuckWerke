@@ -23,6 +23,7 @@
 }
 
 .m-nav__func-nav {
+  display: none;
   list-style-type: none;
   padding: 0;
   position: absolute;
@@ -48,11 +49,13 @@
 
 .m-nav__func-nav--mobile {
   position: static;
+  display: block;
 
   li {
     display: block;
     margin: 0;
     font-size: 2rem;
+    font-weight: 700;
   }
 }
 
@@ -146,6 +149,10 @@
         }
       }
     }
+  }
+
+  .m-nav__func-nav {
+    display: block;
   }
 
   .m-nav__func-nav--mobile {

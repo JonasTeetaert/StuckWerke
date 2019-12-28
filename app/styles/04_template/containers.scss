@@ -21,6 +21,11 @@
     padding: $spacer*1.5 0;
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .row {
-    flex-direction: column;
+    // flex-direction: column;
 }

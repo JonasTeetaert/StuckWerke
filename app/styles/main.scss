@@ -16,6 +16,9 @@
 @import './00_base/mixins.scss';
 @import './00_base/elements';
 
+// ICON FONT
+@import '../assets/icomoon/style.css';
+
 // ATOMS eg. a-button, a-icon
 @import './01_atom/**';
 
